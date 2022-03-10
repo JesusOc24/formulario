@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body class="fondo">  
+        <section class="form-register">
+            <h4>Formulario</h4>
+            <form method="post" enctype = "multipart/form-data"> 
+                <input class = "controls" type="file" name = "imagen">
+                <p>¿Pregunta para el radio button?:</p>
+                <div>
+                    <input type="radio" id="contactChoice1"
+                    name="contact" value="si">
+                    <label for="contactChoice1">Si</label>
+                    <input type="radio" id="contactChoice2"
+                    name="contact" value="no">
+                    <label for="contactChoice2">No</label>
+                </div>
+                <input class="controls" type="text" name="comentarios" id="comentarios" placeholder="Comentarios adicionales">    
+                <input class="botons" name="save" type="submit" >
+            </form>
+          </section>     
+    </body> 
+</html>   
