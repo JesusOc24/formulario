@@ -1,3 +1,9 @@
+body{   
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .inicio .content h3{
     font-size: 6rem;
     color: silver;
